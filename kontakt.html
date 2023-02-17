@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/logo-ikonica3.png">
+    <title>OTKRIJ BLAGODATI</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav clearfix">
+            <div class="logo"><a href="index.html"><img src="img/log_konacna.png" alt=""> <span class="ime">OTKRIJ BLAGODATI</span></a></div>
+            <ul>
+                <li class="list"><a href="index.html">Početna</a></li>
+                <li class="list"><a href="tekstovi.html">Tekstovi</a></li>
+                <li class="list active"><a href="kontakt.html">Kontakt</a></li>
+                <li class="list"><a href="o-nama.html">O nama</a></li>
+                <li class="list"><a href="o-autoru.html">O autoru</a></li>
+                <li class="list button button-srb"><a class="btn-jezik" href="#">SRB</a></li>
+                <li class="list button button-eng"><a class="btn-jezik" href="contact.html">ENG</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="main-kontakt">
+        <div class="wrap">
+            <div class="mainInfo">
+                <h1> Kontaktirajte nas...</h1>
+            <p><i>Imate neko pitanje ili nam želite uputiti kritiku ili savjet?</i></p>    
+            </div>
+        </div>
+    </section>
+    <div class="kontakt-container">
+        <div class="contact-box">
+            <form>
+                <div class="div-forma">
+                    <label for="input-ime">Ime i prezime</label>
+                    <small id="small1" class="small"></small>
+                    <input type="text" class="input-field" placeholder="Vaše ime" id="input-ime" onclick="ispisIme();" >
+                    <label for="input-email">E-mail</label>
+                    <small id="small2" class="small"></small>
+                    <input type="email" class="input-field" placeholder="Vaš email" id="input-email" onclick="ispisEmail();">
+                    <label for="input-subject">Naslov mejla</label>
+                    <input type="text" class="input-field" placeholder="Naslov mejla" id="input-subject">
+                    <label for="poruka">Poruka</label>
+                    <small id="small3" class="small"></small>
+                    <textarea class="input-field textarea-field" placeholder="Poruka" id="poruka"  onclick="ispisPoruka();">
+                    </textarea>
+                    <button type="button"class="btn" onclick="proveraForme()">Posalji poruku</button>
+                </div>
+            </form>
+        </div>
+
+       <div class="kontakt-mreze">
+           <h2 class="h2-mreze">
+               Pratite nas na društvenim mrežama
+           </h2>
+           <div class="mreze">
+                <li class="list1"><a href="https://www.facebook.com/otkrijblagodati" target="blank"><i class="fab fa-facebook-square ikonica"></i></a></li>
+                <li class="list1"><a href="https://www.instagram.com/otkrij_blagodati/" target="blank"><i class="fab fa-instagram ikonica"></i></a></li>
+           </div>
+           <br>
+           <h3 class="mail-tekst">
+            A ukoliko i vi napišete tekst o nekoj blagodati, pošaljite na...
+            <br> <br> 
+          <a href="mailto:otkrijblagodati@gmail.com"><span class="span-mejl"> otkrijblagodati@gmail.com </span></a>
+        </h3>
+           
+       </div>
+       </div>
+
+       <div class="footer">
+        <div class="footer">
+            <div class="footer__logo-box">
+                <img src="" alt="" class="footer-logo">
+            </div>
+            <div class="infobox">
+                <p class="col">Made with <span class="srce"> &hearts;</span> by Dalila Pramenkovic</p>
+                <p class="col">Sva prava zadrzana &copy; Otkrij blagodati, 2020.</p>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
